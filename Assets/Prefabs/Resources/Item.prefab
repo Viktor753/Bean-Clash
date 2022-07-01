@@ -188,6 +188,7 @@ MonoBehaviour:
   photonView: {fileID: 5129719055147154267}
   rb: {fileID: 5129719055147154265}
   pickedUp: 0
+  visible: 0
 --- !u!54 &5129719055147154265
 Rigidbody:
   m_ObjectHideFlags: 0

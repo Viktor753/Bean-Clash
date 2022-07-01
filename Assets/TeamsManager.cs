@@ -127,12 +127,10 @@ public class TeamsManager : MonoBehaviourPunCallbacks
             var playerDisplay = this.blueTeamSelectDisplays[i];
             if (i < this.blueTeam.Count)
             {
-                Debug.Log("Hello?");
                 playerDisplay.nameText.text = this.blueTeamNicks[i];
             }
             else
             {
-                Debug.Log("Not hello!");
                 playerDisplay.nameText.text = string.Empty;
             }
         }
@@ -143,12 +141,10 @@ public class TeamsManager : MonoBehaviourPunCallbacks
             var playerDisplay = this.redTeamSelectDisplays[i];
             if (i < this.redTeam.Count)
             {
-                Debug.Log("Hello?");
                 playerDisplay.nameText.text = this.redTeamNicks[i];
             }
             else
             {
-                Debug.Log("Not hello!");
                 playerDisplay.nameText.text = string.Empty;
             }
         }
@@ -160,12 +156,10 @@ public class TeamsManager : MonoBehaviourPunCallbacks
             var playerDisplay = this.blueTeamScoreboardDisplays[i];
             if (i < this.blueTeam.Count)
             {
-                Debug.Log("Hello?");
                 playerDisplay.nameText.text = this.blueTeamNicks[i];
             }
             else
             {
-                Debug.Log("Not hello!");
                 playerDisplay.nameText.text = string.Empty;
             }
         }
@@ -175,12 +169,10 @@ public class TeamsManager : MonoBehaviourPunCallbacks
             var playerDisplay = this.redTeamScoreboardDisplays[i];
             if (i < this.redTeam.Count)
             {
-                Debug.Log("Hello?");
                 playerDisplay.nameText.text = this.redTeamNicks[i];
             }
             else
             {
-                Debug.Log("Not hello!");
                 playerDisplay.nameText.text = string.Empty;
             }
         }

@@ -121,6 +121,8 @@ public class Item : MonoBehaviour
 
     public void ToggleItemVisible(bool toggle)
     {
+        transform.GetChild(0).gameObject.SetActive(toggle);
+        return;
         photonView.RPC("ToggleItemVisibleRPC", RpcTarget.All, toggle);
     }
 
